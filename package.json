@@ -21,7 +21,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "db create": "dotnet ef migrations add InitialCreate",
+    "db update": "dotnet ef database update",
+    "dotnet run": "dotnet run --project RecipeApp.Api",
+    "dotnet watch": "dotnet watch run --project RecipeApp.Api"
   },
   "eslintConfig": {
     "extends": [

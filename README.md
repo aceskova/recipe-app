@@ -1,3 +1,13 @@
+# Recipe App
+
+Fullstack aplikace pro správu receptů
+
+## Stack
+- React + TypeScript
+- .NET 8 Web API
+- PostgreSQL
+- Render hosting
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
